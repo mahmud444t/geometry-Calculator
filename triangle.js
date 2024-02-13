@@ -9,4 +9,9 @@ function calculateTriangle() {
     const triangleHeightText = triangleHeightInput.value;
     const height = parseFloat(triangleHeightText);
     console.log(height);
+    const area = 0.5 * base * height;
+    console.log(area);
+    const showingArea = document.getElementById('area-answer');
+    showingArea.innerText = area;
+
 }
